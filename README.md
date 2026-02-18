@@ -32,6 +32,7 @@ In six replicate populations of 1000 flies, a dominant marker (DsRed) on Chromos
 - Once you have TSV read-count files, move onto Option 2 (next).
 
 **Step 2 (required, beginner, begin *during* Session5)**
+scp 'wya22hxu@hali.uea.ac.uk:/gpfs/data/BIO-DSB/Session5/ReadCounts/*.tsv' .
 - If you skipped Step 1, you can `scp` the TSV read-count files from the HPC to your local workspace (see `ReadCounts/`), and 
 - Analyse read-counts in R locally `DESeq2/`.
 
